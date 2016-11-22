@@ -13,31 +13,19 @@ src: url("../fonts/cerapro-bold.otf") format("opentype");
 
 $darkgold: #898171;
 $lightgold: #898171;
+$white: #fdfdfd;
 
 
 body {
   background: #fafafa;
   font-family: CeraPro !important;
   color: #333;
+  background-color:$white;
 }
 p{
   font-family:CeraPro;
 }
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 300px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-}
+
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -59,8 +47,10 @@ h1{
     margin-bottom: 50px;
     padding-left: 0;
     padding-right:0;
-    padding-bottom:50px;
-    padding-top:50px;
+    padding-bottom:100px;
+    padding-top:100px;
+    border-bottom:5px solid $lightgold;
+    // border-top:5px solid $lightgold;
 }
 
 
@@ -75,7 +65,12 @@ h1{
 }
 
 .content-box{
-  border-bottom:1px solid $lightgold;
+  
+  
+}
+
+.text-box{
+  border-bottom:5px solid $lightgold;
   padding-bottom:70px;
   margin-bottom:70px;
 }
