@@ -1,0 +1,81 @@
+// bower:scss
+// endbower
+@font-face {
+font-family: CeraPro;
+src: url("../fonts/cerapro-regular.otf") format("opentype");
+}
+@font-face {
+font-family: CeraPro;
+font-weight: bold;
+src: url("../fonts/cerapro-bold.otf") format("opentype");
+}
+
+
+$darkgold: #898171;
+$lightgold: #898171;
+
+
+body {
+  background: #fafafa;
+  font-family: CeraPro !important;
+  color: #333;
+}
+p{
+  font-family:CeraPro;
+}
+.hero-unit {
+  margin: 50px auto 0 auto;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+h1{
+  font-family:CeraPro;
+  font-weight:bold;
+  text-transform:uppercase;
+  color:$lightgold;
+}
+
+
+.header {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-left: 0;
+    padding-right:0;
+    padding-bottom:50px;
+    padding-top:50px;
+}
+
+
+.resbg {
+    background:  url("../images/headerBackBig.png");
+    background-size: cover;
+    color: white;
+}
+
+.nav{
+  position:fixed;
+}
+
+.content-box{
+  border-bottom:1px solid $lightgold;
+  padding-bottom:70px;
+  margin-bottom:70px;
+}
